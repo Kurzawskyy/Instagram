@@ -1,0 +1,6 @@
+.header {
+    min-height: 10vh;
+    width: 100%;
+    z-index: 3000;
+    background-color: red;
+}

@@ -1,11 +1,16 @@
 import "../styles/App.css";
+import { handleDiv } from "./handleDiv";
+import { Header } from "./Header";
 
-export const App = () => {
+
+
+
+export function App() {
+    console.log('app works');
+    
     return (
-        <div className="App">
-            Hello World <br/>
-            I am an empty template of Application <br/>
-            Happy hacking
+        <div>
+            
         </div>
     )
 }
