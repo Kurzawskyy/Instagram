@@ -1,16 +1,19 @@
+import React from "react";
 import "../styles/App.css";
-import { handleDiv } from "./handleDiv";
-import { Header } from "./Header";
+import { Layout } from "./Layout";
+import { Background } from "./layout/Background";
 
 
+export class App extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-
-export function App() {
-    console.log('app works');
-    
-    return (
-        <div>
-            
-        </div>
-    )
+    render() {
+        return (
+            <div>
+                <Layout />
+            </div>
+        )
+    }
 }
