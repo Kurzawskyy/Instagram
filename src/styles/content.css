@@ -1,0 +1,7 @@
+.content  {
+    min-width: 50%;
+    min-height: 100%;
+    margin: 54px 25% 0 25%;
+    display: flex;
+    border: solid 2px #000;
+}
